@@ -12,7 +12,7 @@ Because there is the HTTPS Protocol and the short form of HTTP Scanner is HTTPS
 To deploy this project run
 
 ```bash
-  python bot.py
+  python scanner.py
 ```
 
 Installation is **automatic**!
