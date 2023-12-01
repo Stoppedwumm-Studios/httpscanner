@@ -15,4 +15,9 @@ To deploy this project run
   python scanner.py
 ```
 
-Installation is **automatic**!
+## Installation
+
+To install run
+```bash
+  pip install -r requirements.txt
+```
