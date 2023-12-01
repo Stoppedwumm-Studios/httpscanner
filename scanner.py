@@ -13,7 +13,7 @@ def scan_website(url, depth=0,results=[]):
     response = requests.get(url)
 
     if response.status_code == 200:
-        soup = BeautifulSoup(response.content, 'html.parser')
+        soup = BeautifulSoup(response.content, 'html.parse')
 
         for link in soup.find_all('a'):
             href = link.get('href')
