@@ -1,6 +1,8 @@
 
 # HTTPScan
 
+[![Works?](https://github.com/StoppedwummSites/httpscanner/actions/workflows/python-app.yml/badge.svg?event=status)](https://github.com/StoppedwummSites/httpscanner/actions/workflows/python-app.yml)
+
 An website Scanner that you can use to scan websites or see how much your website is linked.
 
 
