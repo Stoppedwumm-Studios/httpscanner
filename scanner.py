@@ -1,5 +1,7 @@
 import os
 
+scanurl = "https://wikipedia.org"
+
 import json
 import requests
 from bs4 import BeautifulSoup
@@ -33,7 +35,7 @@ def scan_website(url, depth=0,results=[]):
 if __name__ == "__main__":
     
     depth=0
-    url = input("Your URL: ")
+    url = scanurl
     results = []
     scan_website(url, results=results)
 
