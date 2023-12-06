@@ -33,7 +33,7 @@ def scan_website(url, depth=0,results=[]):
 if __name__ == "__main__":
     
     depth=0
-    url = "https://wikipedia.org/"
+    url = input("Your URL: ")
     results = []
     scan_website(url, results=results)
 
