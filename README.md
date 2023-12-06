@@ -11,7 +11,7 @@ An website Scanner that you can use to scan websites or see how much your websit
 Because there is the HTTPS Protocol and the short form of HTTP Scanner is HTTPS
 ## Deployment
 
-To deploy this project run
+To deploy this project change the variable **scanurl** to your url and run
 
 ```bash
   python scanner.py
